@@ -2,30 +2,272 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootcamp</title>
+    <meta name="viewport" content="width=device-width, initial=scale=1.0" charset="UTF-8">
+    <title>WOW Reviews</title>
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Modern+Antiqua&display=swap" rel="stylesheet">
+    <script src="./scripts/index.js"></script>
+    <style>
+        header {
+            font-family: Eagle Lake, 'Times New Roman', Times, serif;
+            font-weight: 300;
+        }
+        main {
+            font-family: Modern Antiqua, 'Times New Roman', Times, serif;
+        }
+    </style>
 </head>
+
 <body>
-    <header>
-        <h1>Reviews</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li class="header_link"><a href="contact.html">Contact</a></li>
-                <li class="header_link"><a href="reviews.html">Reviews</a></li>
-            </ul>
-        </nav>
+    <header class="page-header">
+        <h1 class="title">World of Warcraft Reviews</h1>
+        <img id="logo" src="/styles/images/tww-logo.jpg" alt="TWW-logo">
     </header>
-    
-    <main>
-        <div>
-            <div class="flex"></div>
-            <div class ="square" id="div1"></div>
-            <div class ="square" id="div2"></div>
-            <div class ="square" id="div3"></div>
+
+    <main id="reviews-main">
+        <div class="page-nav">
+            <!-- top page nav -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+                <h3>Current Patch: <a class="current-patch" href="https://www.wowhead.com/ptr/news">TWW 11.2.5</a></h3>
+            </nav>
         </div>
+
+
+        <div class="layout">
+            <!-- Side nav bar -->
+            <div class="sidenav">
+                <h2>Quick Navigation</h2>
+                <hr>
+                <a href="#tww">The War Within</a>
+                <a href="#dragonflight">Dragonflight</a>
+                <a href="#shadowlands">Shadowlands</a>
+                <a href="#bfa">Battle for Azeroth</a>
+                <a href="#legion">Legion</a>
+                <a href="#wod">Warlords of Draenor</a>
+                <a href="#mop">Mists of Pandaria</a>
+                <a href="#cata">Cataclysm</a>
+                <a href="#wotlk">Wrath of the Lich King</a>
+                <a href="#tbc">The Burning Crusade</a>
+                <a href="#classic">Classic</a>
+                <a href="#classic-wow">Classic Rereleases and Anniversary</a>
+            </div>
+
+            <section class="articles"> 
+                <article id="tww">
+                    <h2>The War Within</h2>
+                    <div class="wrapper">
+                        <iframe src="https://www.youtube.com/embed/SiIjThwKLaE?si=t4k7sz1212pODaoO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </div>
+                    <h3 class="rating">4/5 - <em>Pretty good!</em></h3>
+                    <h4>Notable strengths: Good raids, class design, great prologue/set-up expansion for the trilogy.</h4>
+                    <blockquote cite="https://wowpedia.fandom.com/wiki/World_of_Warcraft:_The_War_Within">
+                        <i>In this opening chapter of The Worldsoul Saga, defend Azeroth from the shadows below. Journey through never-before-seen subterranean worlds filled with hidden wonders and lurking perils, down to the dark depths of the nerubian empire, where the malicious Harbinger of the Void is gathering arachnid forces to bring Azeroth to its knees.</i>
+                    <p>Taken from Blizzard's <a href="https://wowpedia.fandom.com/wiki/World_of_Warcraft:_The_War_Within">The War Within</a> front-page.</p>
+                    </blockquote>
+                    <p>The newest expansion for World of Warcraft, and the first in the upcoming Worldsoul Trilogy!</p>
+                </article>
+            <hr>
+                <article id="dragonflight">
+                    <h2>Dragonflight</h2>
+                    <div class="wrapper">
+                        <iframe src="https://www.youtube.com/embed/3ZtedjN1JXY?si=9SkrNzHPmDsBCRHi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <h3 class="rating">3.5/5 - <em>Good</em></h3>
+                    <h4>Notable strengths: Talent system overhaul, cool raids, new flying system</h4>
+                    <blockquote cite="https://wowpedia.fandom.com/wiki/World_of_Warcraft:_Dragonflight"><i>The dragonflights of Azeroth have returned, called upon to defend their ancestral home, the Dragon Isles. Surging with elemental magic and the life energies of Azeroth, the Isles are awakening once more, and it's up to you to explore their primordial wonder and discover long-forgotten secrets.</i>
+                    <p>Taken from <a href="https://wowpedia.fandom.com/wiki/World_of_Warcraft:_Dragonflight">Wowpedia</a></p></blockquote>
+                    <p></p>
+                </article>
+            <hr>
+                <article id="shadowlands">
+                    <h2>Shadowlands</h2>
+                    <div class="wrapper">
+                        <iframe src="https://www.youtube.com/embed/s4gBChg6AII?si=TRnmgnzyQo15rRWS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <h3 class="rating">1.5/5 - <em>Bad</em></h3>
+                    <h4>Notable strengths: None, very universally disliked expansion with bad story</h4>
+                    <blockquote cite="https://wowpedia.fandom.com/wiki/World_of_Warcraft:_Shadowlands">
+                        <i>
+                        <p>The veil between life and death is no more.</p>
+
+                        <p>With a single act of destruction, Sylvanas Windrunner has ripped open the way to the afterlife. Azeroth's staunchest defenders have been dragged into all-consuming darkness. An ancient force of death threatens to break its bonds and unravel reality.</p>
+
+                        <p>Hidden realms of wonder and horror await any who would pass to the other side. The Shadowlands is home to an entire realm of the departed; it is a world between worlds whose delicate balance preserves life and death itself.</p>
+
+                        <p>As one of Azeroth's greatest champions, you have been granted the power to cross over in body and soul. Now you must investigate a conspiracy to unmake the cosmos, and help Warcraft legends journey back... or fulfill their ultimate destiny.</p>
+                        </i>
+                    <p>Taken from <a href="https://wowpedia.fandom.com/wiki/World_of_Warcraft:_Shadowlands">Wowpedia</a></p></blockquote>
+                    <p>People <i>really</i> did not like what they did with Sylvanas' character.</p>
+                </article>
+            <hr>
+                <article id="bfa">
+                    <h2>Battle for Azeroth</h2>
+                    <div class="wrapper">
+                        <iframe src="https://www.youtube.com/embed/jSJr3dXZfcg?si=0E_mFmU6WO9n6enY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <h3 class="rating">2.5 - <em>Just ok</em></h3>
+                    <h4>Notable strengths: Ran out of lore ideas? Back to Horde vs. Alliance, very hard to live up to Legion's hype</h4>
+                    <blockquote cite="https://wowpedia.fandom.com/wiki/World_of_Warcraft:_Battle_for_Azeroth">
+                        <i>
+                            <p>Azeroth paid a terrible price to end the apocalyptic march of the Legion's crusade—but even as the world's wounds are tended, it is the shattered trust between the Alliance and Horde that may prove the hardest to mend. In Battle for Azeroth, the fall of the Burning Legion sets off a series of disastrous incidents that reignites the conflict at the heart of the Warcraft saga.</p>
+                                
+                            <p>As a new age of warfare begins, Azeroth's heroes must set out on a journey to recruit new allies, race to claim the world's mightiest resources, and fight on several fronts to determine whether the Horde or Alliance will lead Azeroth into its uncertain future.</p>
+                        </i>
+                        <p>Taken from <a href="https://wowpedia.fandom.com/wiki/World_of_Warcraft:_Battle_for_Azeroth">Wowpedia</a></p>
+                    </blockquote>
+                    <p>Maybe it's rating would have been higher had it not been before Legion, but unfortunately it was!</p>
+                </article>
+            <hr>
+                <article id="legion">
+                    <h2>Legion</h2>
+                    <div id="legion-two-videos">
+                        <iframe src="https://www.youtube.com/embed/eYNCCu0y-Is?si=T7rOwax3dZcNegK7" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/mUfOIvlC6Eo?si=jI3uDP1M-iy__pbH" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <h3 class="rating"><bold>5/5 - THE BEST EXPANSION EVER</bold></h3>
+                    <h4>Notable strengths: Demon Hunters introduced, Illidan resurrected, Sargeras and Kil'jaeden raid - need I say more?</h4>
+                    <blockquote cite="https://wowpedia.fandom.com/wiki/World_of_Warcraft:_Legion">
+                        <i>
+                            <p>The Tomb of Sargeras has been reopened, and the demons of the Burning Legion pour into our world. Their full, terrifying might is fixed on summoning the Dark Titan to Azeroth-and they've already located the key to his return.</p>
+
+                            <p>With the Alliance and Horde devastated, adventurers must take up legendary artifacts and weapons used by the heroes of old, scour the ancient Broken Isles for relics of the Titans, and challenge the Burning Legion before Azeroth's last hope dies</p>
+
+                            <p>Steel yourself, champion. Extinction is imminent.</p>
+                        </i>
+                        <p>Taken from <a href="https://wowpedia.fandom.com/wiki/World_of_Warcraft:_Legion">Wowpedia</a></p>
+                    </blockquote>
+                    <p>The <b>BEST</b> expansion to ever come out of modern World of Warcraft, just for story alone. Truly incredible.</p>
+                </article>
+            <hr>
+                <article id="wod">
+                    <h2>Warlords of Draenor</h2>
+                    <div class="wrapper">
+                        <iframe src="https://www.youtube.com/embed/TLzhlsEFcVQ?si=ivzceHUfcIWKs-Y1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <h3 class="rating">1/5 - <em>Sucked bad</em></h3>
+                    <h4>Notable strengths - Seriously none</h4>
+                    <blockquote cite="https://wowpedia.fandom.com/wiki/World_of_Warcraft:_Warlords_of_Draenor">
+                        <i>
+                            <p>It is the era of an Old Horde, forged with steel rather than fel blood. A union of great orc clans, the Iron Horde, tramples the planet Draenor beneath terrifying war machines. Azeroth falls next. Worlds uncounted will follow.</p>
+
+                            <p>You must mount a desperate charge on Draenor – savage home of orcs and adopted bastion of stoic draenei – at this pivotal moment. Your allies are legends from across time; your fortress a foothold in an alien land. Lead the armies of one world against another…before the future itself is unmade.</p>
+
+                            <p>Following the events of Siege of Orgrimmar, Garrosh Hellscream was imprisoned to be tried in Pandaria. Before the trial can conclude, aided by an ally who can manipulate the timelines, Garrosh escapes to Draenor of the past, and prevents the orcs from ever drinking the blood of Mannoroth, creating an untainted Iron Horde under the leadership of Grommash Hellscream.</p>
+                        </i>
+                        <p>Taken from <a href="https://wowpedia.fandom.com/wiki/World_of_Warcraft:_Warlords_of_Draenor">Wowpedia</a></p>
+                    </blockquote>
+                    <p>Not much to say, other than this was bad. Big content draught and all the raids sucked.</p>
+                </article>
+            <hr>
+                <article id="mop">
+                    <h2>Mists of Pandaria</h2>
+                    <div class="wrapper">
+                        <iframe src="https://www.youtube.com/embed/wvYXoyxLv64?si=lQ5_-QluzQUedkQe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <h3 class="rating">2/5 - <em>Just okay</em></h3>
+                    <h4>Notable strengths: Monk class added</h4>
+                    <blockquote cite="https://wowpedia.fandom.com/wiki/World_of_Warcraft:_Mists_of_Pandaria">
+                        <i>
+                            <p>Shrouded in fog since the world was sundered more than ten thousand years ago, the ancient realm of Pandaria has remained unspoiled by war. Its lush forests and cloud-ringed mountains are home to a complex ecosystem of indigenous races and exotic creatures. It is the homeland of the enigmatic Pandaren, a race that celebrates life to the fullest even while under siege by an ancient menace.</p>
+
+                            <p>The new continent reveals itself to a broken world just as the Alliance and Horde are spiraling ever closer to a war that will consume all of Azeroth. Will the mists of Pandaria part to reveal the world's salvation? Or will the battle to control this rich and breathtaking new land push the two mighty factions over the brink of war and into total annihilation? The answers await within Pandaria's mysterious shores!</p>
+                        </i>
+                        <p>Taken from <a href="https://wowpedia.fandom.com/wiki/World_of_Warcraft:_Mists_of_Pandaria">Wowpedia</a></p>
+                    </blockquote>
+                    <p>Filler expansion!</p>
+                </article>
+            <hr>
+                <article id="cata">
+                    <h2>Cataclysm</h2>
+                    <div class="wrapper">
+                        <iframe src="https://www.youtube.com/embed/Wq4Y7ztznKc?si=krlNn6hO_p3l7cOA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <h3 class="rating">3/5 - <em>Good with some bad changes?</em></h3>
+                    <h4>Notable strengths: Open world flying and raid finder very controversial at the time</h4>
+                    <blockquote cite="https://wowpedia.fandom.com/wiki/World_of_Warcraft:_Cataclysm">
+                        <i>
+                            <p>An ancient evil lies dormant within Deepholm, the domain of earth in the Elemental Plane.</p>
+
+                            <p>Hidden away in a secluded sanctuary, the corrupted Dragon Aspect Deathwing has waited, recovering from the wounds of his last battle against Azeroth and biding his time until he can reforge the world in molten fire.</p>
+
+                            <p>Soon, Deathwing the Destroyer will return to Azeroth, and his eruption from Deepholm will sunder the world, leaving a festering wound across the continents. As the Horde and Alliance race to the epicenter of the cataclysm, the kingdoms of Azeroth will witness seismic shifts in power, the kindling of a war of the elements, and the emergence of unlikely heroes who will rise up to protect their scarred and broken world from utter devastation.</p>
+                        </i>
+                        <p>Taken from <a href="https://wowpedia.fandom.com/wiki/World_of_Warcraft:_Cataclysm">Wowpedia</a></p>
+                    </blockquote>
+                    <p>I only played this on classic and it was really fun in my opinion, though player count was super dead and could barely find people to raid with.</p>
+                </article>
+            <hr>
+                <article id="wotlk">
+                    <h2>Wrath of the Lich King</h2>
+                    <div class="wrapper">
+                        <iframe src="https://www.youtube.com/embed/BCr7y4SLhck?si=cIRCrqAIvYnPB90a" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <h3 class="rating">4.5/5 - <em>There must always be a Lich King.</em></h3>
+                    <h4>Notable strengths: Death Knights introduced, dungeon finder, amazing raids, good story!</h4>
+                    <blockquote cite="https://wowpedia.fandom.com/wiki/World_of_Warcraft:_Wrath_of_the_Lich_King">
+                        <i>
+                            <p>For years, the heroes of the Alliance and Horde have fought against the evils in Kalimdor and the Eastern Kingdoms, against the demons of the Burning Legion in Outland, and against each other - all the while unaware that a threat more dangerous than any they had yet encountered was preparing to make its move in the icy continent of Northrend. Now the Lich King, Arthas Menethil, has emerged from Icecrown Citadel to claim the world as his own. Heroes of the Alliance and Horde gather in Northrend to make a stand against the malevolent being that dares to declare himself Azeroth's one true king...and seeks to scour all life from the world.</p>
+                        </i>
+                        <p>Taken from <a href="https://wowpedia.fandom.com/wiki/World_of_Warcraft:_Wrath_of_the_Lich_King">Wowpedia</a></p>
+                    </blockquote>
+                    <p>One of the <b>THE MOST POPULAR</b> expansions in all of MMO history!</p>
+                    <p>This is also where I started playing WoW, loved it!</p>
+                </article>
+            <hr>
+                <article id="tbc">
+                    <h2>The Burning Crusade</h2>
+                    <div class="wrapper">
+                        <iframe src="https://www.youtube.com/embed/IBHL_-biMrQ?si=P0AYxVixtXrTA-2X" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <h3 class="rating">4.5/5 - <em>Yay flying!!!</em></h3>
+                    <h4>Notable strengths: Amazing raid, addition of flying, Blood Elves added</h4>
+                    <blockquote cite="https://wowpedia.fandom.com/wiki/World_of_Warcraft:_The_Burning_Crusade">
+                            <p>The expansion introduces Outland, the former world of Draenor, and numerous quests essentially allowing players to explore the world on their own. The main storyline points to Illidan the Betrayer and what happened to him during the last four years. Players can also complete quests that involve either aiding Illidan or making preparations for his downfall.</p>
+
+                            <p>In addition, there are many links between the former world of Draenor and the current Outland, such as the opening of the Dark Portal by Medivh, which is relived in the Caverns of Time, and various quest chains which provide insight into the history of the old Orcish shamans and their relationship with Burning Legion long before the First War.</p>
+                            <p>Taken from <a href="https://wowpedia.fandom.com/wiki/World_of_Warcraft:_The_Burning_Crusade">Wowpedia</a></p>
+                    </blockquote>
+                    <p>Black Temple raid!</p>
+            </div>
+            <hr>
+                <article id="classic">
+                    <h2>Classic</h2>
+                    <div class="wrapper">
+                        <iframe src="https://www.youtube.com/embed/vlVSJ0AvZe0?si=gX4E1fxkzphYk6Pg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <h3 class="rating">3/5 - <em>Kind of bad for today's standards but a classic nonetheless!</em></h3>
+                    <h4>The base game!</h4>
+                    <blockquote cite="https://wowpedia.fandom.com/wiki/World_of_Warcraft">
+                        <i>
+                            <p>Four years after the Battle of Mount Hyjal, tensions between the Alliance and the Horde begin to arise once again.[10] Intent on settling the arid region of Durotar, Thrall's new Horde expanded its ranks, inviting the undead Forsaken to join orcs, tauren, and trolls. Meanwhile, dwarves, gnomes and the ancient night elves pledged their loyalties to a reinvigorated Alliance, guided by the human kingdom of Stormwind. After Stormwind's king Varian Wrynn mysteriously disappeared, Highlord Bolvar Fordragon served as Regent, but his service was marred by the manipulations and mind control of the black dragon Onyxia, who ruled in disguise as a human noblewoman. As heroes investigated Onyxia's manipulations, ancient foes surfaced in lands throughout the world to menace Horde and Alliance alike.</p>
+                        </i>
+                        <p>Taken from <a href="https://wowpedia.fandom.com/wiki/World_of_Warcraft">Wowpedia</a></p>
+                    </blockquote>
+                    <p>Classic is classic! Not much else to say. Very slow to level, very jank, but has a beautiful nostalgic glean to it.</p>
+                </article>
+            <hr>
+                <article id="classic-wow">
+                    <h2>Classic and Anniversary</h2>
+                    <p>Though these are just rereleases, they deserve a bit of a spotlight as well, and also serve as a source of nostalgia for many people. For me, I started playing seriously during <a href="#wotlk">WOTLK</a> Classic and it was the most fun I've had playing WOW! Though slower than current expansions, and raids and dungeons not nearly as hard, as well as lacking a real difficulty slider, it still has lots of jank fun and an active community. Recommend!</p>
+                    <h3>Here's a picture of the current timeline for Classic!</h3>
+                    <div class="wrapper">
+                        <img id="classic-timeline" src="/styles/images/classic-anniversary-roadmap.jpg" alt="Classic and Anniversary Roadmap">
+                    </div>
+                </article>
+            </section>
+        </div>
+        <button onclick="topFunction()" id="top-button" title="Go to top">Top</button>
     </main>
-    <footer></footer>
+    <footer>
+        <p><a href="https://www.artstation.com/artwork/KLv5o">Background image</a> taken from artist <a href="https://wowpedia.fandom.com/wiki/Wei_Wang">Wei Wang</a></p>
+    </footer>
 </body>
 </html>

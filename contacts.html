@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial=scale=1.0" charset="UTF-8">
+    <title>WOW Reviews</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Modern+Antiqua&display=swap" rel="stylesheet">
+    <script src="./scripts/index.js"></script>
+    <style>
+        header {
+            font-family: Eagle Lake, 'Times New Roman', Times, serif;
+            font-weight: 300;
+        }
+        main, footer {
+            font-family: Modern Antiqua, 'Times New Roman', Times, serif;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="page-header">
+        <h1 class="title">World of Warcraft Reviews</h1>
+        <img id="logo" src="/styles/images/tww-logo.jpg" alt="TWW-logo">
+    </header>
+
+    <main id="reviews-main">
+        <div class="page-nav">
+            <!-- top page nav -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+                <h3>Current Patch: <a class="current-patch" href="https://www.wowhead.com/ptr/news">TWW 11.2.5</a></h3>
+            </nav>
+        </div>
+
+        <div class="layout">
+            <!-- Side nav bar -->
+            <div class="sidenav">
+                <h2>Quick Navigation</h2>
+                <hr>
+                <a href="reviews.html#tww">The War Within</a>
+                <a href="reviews.html#dragonflight">Dragonflight</a>
+                <a href="reviews.html#shadowlands">Shadowlands</a>
+                <a href="reviews.html#bfa">Battle for Azeroth</a>
+                <a href="reviews.html#legion">Legion</a>
+                <a href="reviews.html#wod">Warlords of Draenor</a>
+                <a href="reviews.html#mop">Mists of Pandaria</a>
+                <a href="reviews.html#cata">Cataclysm</a>
+                <a href="reviews.html#wotlk">Wrath of the Lich King</a>
+                <a href="reviews.html#tbc">The Burning Crusade</a>
+                <a href="reviews.html#classic">Classic</a>
+                <a href="reviews.htmlclassic-wow">Classic Rereleases and Anniversary</a>
+            </div>
+            
+            <div class="about-us">
+                <section id="main-contact-section">
+                    <h2>About us</h2>
+                    <div id="main-godilla-pic">
+                        <img src="/styles/images/godilla.png" alt="picture of godilla guild together">
+                    </div>
+                    <p>I have played WoW for around 2 years now on-and-off, and many of our reviewers have years, if not decades of experience!</p>
+                    <p>Some of the gameplay we feature on this website comes from professional e-sports teams such as Team Liquid!</p>
+
+                    <p>Feel free to contact us if you have any reviews you'd like to submit or for general inquiries.</p>
+
+                    <div class="container">
+                        <form action="action_page.php">
+                            <label for="username">Username</label>
+                            <input type="text" id="username" placeholder="What should we call you?">
+
+                            <label for="email">Email</label>
+                            <input type="text" id="email" placeholder="Email">
+
+                            <label for="server">Server</label>
+                            <select id="server">
+                                <option value="nightslayer-us">Nightslayer-US</option>
+                                <option value="dreamscythe-us">Dreamscythe-US</option>
+                                <option value="Grobbulus-us">Grobbulus-US</option>
+                                <option value="Area64-us">Area64-US</option>
+                            </select>
+
+                            <label for="subject">Subject</label>
+                            <textarea id="subject" placeholder="What's up?" style="height:200px"></textarea>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </section>
+            </div>
+
+            <div class="scroll-container">
+                <section id="image-gallery">
+                    <img id="img1" src="styles/images/copy-of-cata.png" alt="An original copy of Cataclysm from Best Buy">
+                    <img id="img2" src="styles/images/undead-mount.jpg" alt="An Undead Rogue on his mount">
+                    <img id="img3" src="styles/images/nefarion-fight.png" alt="A screenshot from the Nefarion fight">
+                    <img id="img4" src="styles/images/defeating-nefarion.png" alt="A screenshot after defeating Nefarion and achieving Blackwing Descent">
+                    <img id="img5" src="styles/images/trike-in-tirisfal.png" alt="Trikes in Tirisfal">
+                    <img id="img6" src="styles/images/trikes-in-arathi.png" alt="Trikes in Arathi Highlands">
+                    <img id="img7" src="styles/images/end-of-temple-fight.png" alt="Celebrating after defeating Nefarion">
+                    <img id="img8" src="styles/images/busy-cata-orgrimmar.png" alt="Orgrimmar super busy during Cataclysm launch">
+                </section>
+            </div>
+        </div>
+        <!-- not working modal javascript section
+            <div id="img-modal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption1">An original copy of Cataclysm from Best Buy"></div>
+        </div>
+        <button onclick="topFunction()" id="top-button" title="Go to top">Top</button> -->
+    </main>
+    <footer>
+        <p><a href="https://www.artstation.com/artwork/KLv5o">Background image</a> taken from artist <a href="https://wowpedia.fandom.com/wiki/Wei_Wang">Wei Wang</a></p>
+    </footer>
+</body>
+</html>
