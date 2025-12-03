@@ -184,13 +184,14 @@ hr {
 
 /* Reviews Page */
 
-iframe {
-    max-width:var(--video-width);
-    max-height:var(--video-height);
+section.articles iframe {
+    min-width:var(--video-width);
+    min-height:var(--video-height);
     display: flex;
     justify-content: center;
     border: var(--border-colour) solid 2px;
     overflow-x: hidden;
+    margin: 0px;
 }
 
 div#legion-two-videos {
@@ -398,7 +399,7 @@ input[type=submit]:hover {
 
 div#main-godilla-pic img {
     border: ridge var(--border-colour) 2px;
-    max-width: fit-content;
+    max-width: 100%;
     max-height: auto;
     overflow-x: scroll;
 }
