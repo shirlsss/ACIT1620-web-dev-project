@@ -1,3 +1,5 @@
+/* check/remove fixed iframe widths/heights, experiment with image fixed widths */
+
 :root {
     --box_color: #627a74;
     --box-opacity: 0.95;
@@ -228,11 +230,11 @@ div.wrapper {
     align-items: center;
     padding: 10px 10px 10px 10px;
 }
-
+/* 
 blockquote {
     margin-left: 100px;
     margin-right: 100px;
-}
+} */
 
 footer a {
     color: var(--fel-green);
