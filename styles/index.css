@@ -311,7 +311,6 @@ section#image-gallery {
 div.scroll-container img {
     width: 200px;
     height: auto;
-    padding-right: 12px;
     display: block;
     border-radius: 6px;
 }
